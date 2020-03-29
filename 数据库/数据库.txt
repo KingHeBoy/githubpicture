@@ -1,0 +1,7 @@
+1. select max(Salary) SecondHighestSalary from Employee where Salary<(select max(Salary) from Employee)；
+ 2.  limit 与 offset：从下标0开始
+     offset X   是跳过X个数据
+     limit Y      是选取Y个数据
+     limit  X,Y  中X表示跳过X个数据，读取Y个数据
+
+3.
